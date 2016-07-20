@@ -22,7 +22,7 @@ public class CmdMkFileTest extends CmdTest {
 		// Important: Other commands are not available unless added here.
 		this.commandInvoker.addCommand(new CmdMkFile("mkfile", this.drive));
 	}
-/*
+
     @Test
     public void CmdMkFile_CreatesNewFile()
     {
@@ -52,7 +52,7 @@ public class CmdMkFileTest extends CmdTest {
         File createdFile = TestHelper.getFile(drive, drive.getCurrentDirectory().getPath(), newFileName);
         assertEquals("", createdFile.getFileContent());
     }
-*/
+
     @Test
     public void CmdMkFile_WithContent_CreatesFileWithContent()
     {
