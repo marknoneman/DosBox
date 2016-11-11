@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.mhg</groupId>
-	<artifactId>DosBox2</artifactId>
-	<name>DosBox2</name>
+	<artifactId>DosBox</artifactId>
+	<name>DosBox</name>
 	<packaging>jar</packaging>
 	<version>4.2-SNAPSHOT</version>
 
