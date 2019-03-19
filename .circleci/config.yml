@@ -1,3 +1,6 @@
+version: 2
+jobs:
+build:
 test:
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
