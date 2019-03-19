@@ -9,7 +9,7 @@ jobs:
          - restore_cache:
             key: circleci-dosbox-{{ checksum "pom.xml" }}
          - run: mvn dependency:go-offline
-         - save_chache:
+         - save_cache:
             paths: 
                - ~/.m2
             key: circleci-dosbox-{{ checksum "pom.xml" }}
