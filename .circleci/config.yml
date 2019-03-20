@@ -9,4 +9,3 @@ jobs:
       - checkout
       - run : mvn test
       - run: curl -s https://codecov.io/bash | bash
-
