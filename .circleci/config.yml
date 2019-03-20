@@ -7,5 +7,5 @@ jobs:
       - image: circleci/openjdk:11.0-stretch-node-browsers-legacy
     steps:
       - checkout
-      - run : mvn test
+      - run: mvn test
       - run: curl -s https://codecov.io/bash | bash
