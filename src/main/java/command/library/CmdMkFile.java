@@ -23,4 +23,9 @@ class CmdMkFile extends Command {
 		File newFile = new File(fileName, fileContent);
 		this.getDrive().getCurrentDirectory().add(newFile);
 	}
+
+	@Override
+    protected boolean checkNumberOfParameters(int numberOfParametersEntered) {
+    	return numberOfParametersEntered == 2 || numberOfParametersEntered == 1;
+    }
 }
