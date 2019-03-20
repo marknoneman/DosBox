@@ -44,7 +44,7 @@ public class CmdMkFileTest extends CmdTest {
     {
         // given
         final String newFileName = "testFile";
-
+   
         // when
         executeCommand("mkfile " + newFileName);
 
