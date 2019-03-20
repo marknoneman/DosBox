@@ -26,6 +26,6 @@ class CmdMkFile extends Command {
 
 	@Override
     protected boolean checkNumberOfParameters(int numberOfParametersEntered) {
-    	return numberOfParametersEntered == 2;
+    	return numberOfParametersEntered == 2 || numberOfParametersEntered == 1;
     }
 }
